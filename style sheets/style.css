@@ -1,0 +1,176 @@
+* {
+  font-size: 35px;
+  text-transform: capitalize;
+}
+/* display block */
+.block {
+  display: block;
+}
+/* display inline  */
+.inline {
+  display: inline;
+}
+/* display inline block  */
+.inlineblock {
+  display: inline-block;
+}
+/* bold  */
+.bold {
+  font-weight: 900;
+  font-size: 49px;
+}
+/* underline */
+.underline {
+  text-decoration: underline;
+}
+/* line height */
+.lh {
+  line-height: 55px;
+}
+/* nav bar */
+.nav {
+  font-family: muli;
+  text-decoration: none;
+  list-style: none;
+  display: inline-block;
+  position: sticky;
+  top: 5px;
+  margin: 22px;
+  text-transform: capitalize;
+  margin-left: 155px;
+  transition: all 0.9s;
+  transition-delay: 0.2s;
+  color: white;
+  text-shadow: 2px 2px black;
+}
+.div {
+  position: sticky;
+  top: 2.5px;
+  border-radius: 20px;
+  background-color: orange;
+}
+/* nav links properties */
+.nav a {
+  text-decoration: none;
+  color: white;
+  transition: all 0.9s;
+  transition-delay: 0.2s;
+}
+/* hovers */
+
+/* common hover  */
+nav a:hover {
+  color: black;
+  scale: 1.5;
+  letter-spacing: 9px;
+  text-shadow: 2px 2px white;
+}
+/* index hover  */
+.index a:hover {
+  color: black;
+  scale: 1.5;
+  letter-spacing: 9px;
+  text-shadow: 2px 2px white;
+}
+/* gallery hover  */
+.about a:hover {
+  color: black;
+  scale: 1.5;
+  letter-spacing: 9px;
+  text-shadow: 2px 2px white;
+}
+/* gallery hover  */
+.gallery a:hover {
+  color: black;
+  scale: 1.5;
+  letter-spacing: 9px;
+  text-shadow: 2px 2px white;
+}
+/* form hover  */
+.form a:hover {
+  color: black;
+  scale: 1.5;
+  letter-spacing: 9px;
+  text-shadow: 2px 2px white;
+}
+/* current page  */
+.current a {
+  color: black;
+
+  text-shadow: 4px 4px 4px rgb(255, 255, 255);
+}
+.current a:hover {
+  color: white;
+  scale: 1.5;
+
+  letter-spacing: 12px;
+  text-shadow: 10px 10px 5px black;
+}
+/*logo*/
+.logo {
+  height: 115px;
+  margin: auto;
+  /* margin-bottom: -27px; */
+  padding: 0;
+  display: block;
+  /* border-radius: 34px; */
+  border-radius: 100px;
+  transition: all 1s;
+  transition-delay: 0.2s;
+}
+.logo:hover {
+  /* scale: 1.5; */
+  border-radius: 34px;
+}
+
+/* photos */
+.photos {
+  margin: 34px;
+  height: 111px;
+  transition: all 0.7s;
+  transition-delay: 0.1s;
+  border-radius: 34px;
+}
+.photos:hover {
+  scale: 3;
+}
+
+/* form */
+form input {
+  border-radius: 9px;
+  margin-top: 23px;
+  box-shadow: 10px 10px 5px #aaaaaa;
+  transition: all 1s;
+}
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+.submit {
+  border-radius: 34px;
+  box-shadow: 10px 10px 5px #aaaaaa;
+  transition: all 0.2s linear;
+  margin-left: 34px;
+}
+form input:active{
+background-color: rgb(94, 94, 94);
+scale: 1.11;
+box-shadow: 10px 10px 5px #ffffff;
+}
+.submit:active{
+  background-color: red;
+  
+}
+
+.submit:hover {
+  cursor: pointer;
+  box-shadow: 3px 3px 3px #aaaaaa;
+  scale: 1.15;
+}
+.text {
+  transition: all 0.9s;
+  text-shadow: 2px 2px 4px rgb(98, 98, 98);
+}
+
+
+
